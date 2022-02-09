@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+    <template>MegaCorelli.xslt</template>
+    <scripts>
+        <script jsObject="jQuery" />
+        <script jsObject="jQuery.fn.hoverIntent">hoverIntent.js</script>
+        <script>MegaCorelli.js</script>
+    </scripts>
+    <stylesheets>
+        <stylesheet>MegaCorelli.css</stylesheet>
+    </stylesheets>
+</manifest>

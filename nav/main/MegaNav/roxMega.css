@@ -1,0 +1,39 @@
+nav                                     { max-height: 98px; padding: 0 !important; position: relative; width: 100%; }
+.nav-container                          { max-height: 98px !important }
+.Nav-Bar                                { padding-top: 0 !important }
+.Logo-Box                               { margin-top: 26px }
+#menu-icon                              { display: none }
+.Slider-Row                             { top: -3px }
+#mega-bar                               { margin: auto }
+ul.roxMega                              { margin: 0; padding: 0; float: right; list-style: none; }
+ul.roxMega, ul.roxMega li               { list-style-type: none }
+ul.roxMega li                           { float: left; margin: 0; padding: 0; position: relative; z-index: 99; }
+ul.roxMega ul                           { padding: 0; margin: 0; }
+ul.roxMega li a                         { cursor: pointer; font-family: OpenSansSemiBold; font-size: 12px; letter-spacing: 0.22px; margin: 0 0.5px; padding: 42px 13px !important; text-align: left; text-decoration: none; text-transform: uppercase; transition: none 0s ease 0s; }
+ul.roxMega li a:hover, ul.roxMega li a.current
+                                        { display: inline-block; padding: 40px 13px 39px !important; }
+ul.roxMega .sub ul li a:hover           { border: none }
+ul.roxMega li .sub                      { position: absolute; left: 0; float: left; display: none; }
+ul.roxMega li .rows                     { clear: both; float: left; width: 100%; margin-bottom: 10px; }
+ul.roxMega li .sub ul                   { float: left; list-style: none outside none; margin: 0; max-width: 170px; padding: 0 10px; }
+ul.roxMega .sub ul li                   { border: medium none; border-radius: 1px 1px 1px 1px; margin-right: 8px; padding: 3px 10px; width: 100%; }
+ul.roxMega .sub ul li h2                { font-family: 'OpenSansRegular'; font-size: 11px; font-weight: normal; line-height: 12px; margin-top: 0; padding: 0; }
+ul.roxMega .sub ul li h2 a              { padding: 0; margin: 0; }
+ul.roxMega .sub ul li a                 { display: block; float: none; font-family: OpenSansRegular; font-size: 12px; padding: 3px 0 !important; text-decoration: none; text-indent: 0; text-transform: none; }
+.roxMegasubcontent                      { min-width: 170px !important }
+.roxMegasubcontent:last-child           { border-right: none }
+/* --Modify for styling --*/
+ul.roxMega                              { }
+ul.roxMega a                            { display: inline-block; font-weight: normal; }
+div.sub                                 { padding: 8px }
+dib.sub ul                              { margin-left: 8px }
+#roxMega li.subheader                   { }
+#roxMega li.sublink                     { }
+#roxMega li.subheader h2                { margin-bottom: 4px; margin-top: 6px; }
+ul.roxMega li .sub                      { box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); color: #CCCCCC; margin-top: -3px; padding: 15px 5px 15px 0; text-align: left; width: 515px !important; }
+ul.roxMega .sub ul li h2 a              { font-family: OpenSansBold; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; }
+ul.roxMega .sub ul li h2 a:hover        { background: none repeat scroll 0 0 rgba(0, 0, 0, 0) }
+ul.roxMega li.open                      { border-bottom: 1px dotted rgba(255, 255, 255, 0.2) }
+span.indic                              { position: relative }
+span.indic:before                       { content: "\f054"; font-family: FontAwesome; font-size: 10px !important; font-style: normal; font-weight: normal; left: -15px; padding-right: 0.5em; position: absolute; text-decoration: inherit; top: -1px; }
+div#search                              { margin-top: 32px }

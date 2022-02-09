@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "ropa_soft_proregular";
+  src: url("RopaSansSoft/ropasoftpro-regular-webfont.eot");
+  src: url("RopaSansSoft/ropasoftpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("RopaSansSoft/ropasoftpro-regular-webfont.woff") format("woff"), url("RopaSansSoft/ropasoftpro-regular-webfont.ttf") format("truetype"), url("RopaSansSoft/ropasoftpro-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ropa_soft_proitalic";
+  src: url("RopaSansSoft/ropasoftpro-italic-webfont.eot");
+  src: url("RopaSansSoft/ropasoftpro-italic-webfont.eot?#iefix") format("embedded-opentype"), url("RopaSansSoft/ropasoftpro-italic-webfont.woff2") format("woff2"), url("RopaSansSoft/ropasoftpro-italic-webfont.woff") format("woff"), url("RopaSansSoft/ropasoftpro-italic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "ropa_soft_prolight";
+  src: url("RopaSansSoft/ropasoftpro-light-webfont.eot");
+  src: url("RopaSansSoft/ropasoftpro-light-webfont.eot?#iefix") format("embedded-opentype"), url("RopaSansSoft/ropasoftpro-light-webfont.woff2") format("woff2"), url("RopaSansSoft/ropasoftpro-light-webfont.woff") format("woff"), url("RopaSansSoft/ropasoftpro-light-webfont.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ropa_soft_proextrabold";
+  src: url("RopaSansSoft/ropasoftpro-bold-webfont.eot");
+  src: url("RopaSansSoft/ropasoftpro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("RopaSansSoft/ropasoftpro-bold-webfont.woff2") format("woff2"), url("RopaSansSoft/ropasoftpro-bold-webfont.woff") format("woff"), url("RopaSansSoft/ropasoftpro-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+/*# sourceMappingURL=RopaSansSoft.css.map */

@@ -1,0 +1,187 @@
+ul.megamenu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    list-style: none;
+
+    .sep {
+        color: #FFFFFF;
+        padding: 10px;
+        margin: 0;
+    }
+
+    li {
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .megamenusubcontent {
+        margin-right: 20px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li a {
+        float: left;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    li .sub {
+        position: absolute;
+        left: 0;
+        float: left;
+        display: none;
+    }
+
+    li .row {
+        clear: both;
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    li .sub ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        float: left;
+        margin-right: 5px;
+
+        li {
+            width: 100%;
+
+            div {
+                padding: 0;
+                margin: 0;
+                font-size: 14px;
+                font-weight: normal;
+                text-decoration: none;
+                font-family: "ropa_soft_proregular";
+
+                a {
+                    padding: 5;
+                    margin: 0;
+                }
+            }
+
+            a {
+                float: none;
+                text-indent: 0;
+                display: block;
+                text-decoration: none;
+                color: #505050;
+                font-weight: 400;
+                padding: 5px;
+                margin: 0;
+                text-transform: none;
+            }
+        }
+    }
+
+    a {
+        color: #fff;
+        font-weight: bold;
+        padding: 10px;
+        
+    }
+
+       
+}
+    
+div.sub {
+    padding: 8px;
+}
+
+div.sub ul {
+    margin-left: 8px;
+}
+.megamenu {
+    .dropdown{
+        a.nav-item
+        {
+            color:#FFF;
+            background-color: transparent;
+            font-size: 14px;
+
+            &.current {
+                color: rgb(0, 31, 96);
+                background-color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+#megamenu li.subheader {
+}
+
+#megamenu li.sublink {
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+#megamenu li.subheader h2 {
+    margin-bottom: 10px;
+}
+
+ul.megamenu li .sub {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 18px 2px;
+    padding: 20px 60px 20px 20px;
+}
+
+ul.megamenu .sub ul li h2 a {
+    line-height: normal;
+}
+
+ul.megamenu .sub ul li a:hover {
+    color: rgb(0, 31, 96);
+}
+
+a.nohover2 {
+    cursor: default;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+
+a.nohover2:hover {
+    background-color: initial !important;
+}
+
+a.myrowwrap:hover {
+    color: rgb(0, 31, 96);
+}
+/*
+.mynofloat {
+    float: none !important;
+}*/
+
+.row.mb0 {
+    margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 799px) {
+    ul.megamenu li {
+        width: 100%;
+    }
+
+    ul.megamenu li .sub {
+        position: initial;
+    }
+}
+/* 5 or more items display next to each other */
+/*ul.megamenu li .sub ul.megamenusubcontent:first-child:nth-last-child(n + 1),
+ul.megamenu li .sub ul.megamenusubcontent:first-child:nth-last-child(n + 1) ~ ul.megamenu li .sub ul.megamenusubcontent {
+    display: inline;
+}*/

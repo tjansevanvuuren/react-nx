@@ -1,0 +1,14 @@
+- Next DNN Theme -
+<br/>
+<p>
+[ version 01.00.02 ]
+<ul>
+ <ol>- Background settings standardized.</ol>
+</ul>
+<p>
+[ version 01.00.01 ]
+<ul>
+ <ol>- Column: "Content Vertical Alignment" setting added</ol>
+ <ol>- Content Types: "Horizontal Alignment" setting added. Existing duplicate settings were removed.</ol>
+</ul>
+</p>

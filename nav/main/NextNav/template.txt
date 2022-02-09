@@ -1,0 +1,177 @@
+<ul class="nav me-auto" id="navigation">
+  [*>NODE-TOP]
+</ul>
+
+  [>NODE-TOP]
+    <li class="submenu nav-item">
+      
+      [?ENABLED]
+        <a href="[=URL]"[?TARGET] target="[=TARGET]"[/?] class="nav-link">[=TEXT]</a>
+      [?ELSE]    
+        <a>[=TEXT]</a>
+      [/?]
+      
+      [?NODE]
+        <ul class="megamenu">
+            <ul style="width:15%">
+                <h4 class="text-uppercase text-body">[=TEXT]</h4>
+                [*>NODE-LOWER]
+            </ul>
+        </ul>
+      [/?]
+    </li>
+  [/>]
+  
+  [>NODE-LOWER]
+    <li[?BREADCRUMB] class="active"[/?]>
+      [?ENABLED]
+        <a href="[=URL]"[?TARGET] target="[=TARGET]"[/?]" class="d-flex justify-content-between">[=TEXT]</a>
+      [?ELSE]    
+        <a>[=TEXT]</a>
+      [/?]
+      
+      [?NODE]
+            <ul style="width:15%">
+                <h4 class="text-uppercase text-body">[=TEXT]</h4>
+                [*>NODE-BOTTOM]
+            </ul>
+        </ul>
+      [/?]
+    </li>
+  [/>]
+
+  [>NODE-BOTTOM]
+    <li[?BREADCRUMB] class="active"[/?]>
+      [?ENABLED]
+        <a href="[=URL]"[?TARGET] target="[=TARGET]"[/?]>[=TEXT]</a>
+      [?ELSE]    
+        <a>[=TEXT]</a>
+      [/?]
+      
+      [?NODE]
+        <ul>
+          [*>NODE-BOTTOM]
+        </ul>
+      [/?]
+    </li>
+  [/>]
+
+
+
+  <ul class="nav me-auto">
+                        
+
+
+
+
+
+
+
+
+
+
+
+                <li class="submenu nav-item">
+                    <a href="#" class="nav-link">Who are we</a>
+    <ul class="megamenu">
+        <ul style="width:15%">
+            <h4 class="text-uppercase text-body">Who are we</h4>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Laboratory">Laboratory</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Accreditations">Accreditations</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Partners">Partners</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Testimonials">Testimonials</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Leadership">Leadership</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Corporate-Social-Responsibility">Corporate Social Responsibility</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Manifesto">Manifesto</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Who-are-we/Careers">Careers</a> </li>
+                    <span>0</span>
+        </ul>
+    </ul>
+                </li> 
+                <li class="submenu nav-item">
+                    <a href="#" class="nav-link">PATIENT</a>
+    <ul class="megamenu">
+        <ul style="width:15%">
+            <h4 class="text-uppercase text-body">PATIENT</h4>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Aesthetics">Aesthetics</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/COVID-19-Testing">COVID-19 Testing</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Dentistry">Dentistry</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Fertility">Fertility</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Genetic-Counselling">Genetic Counselling</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Integrative-Medicine">Integrative Medicine</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Obstetrics-Gynaecology">Obstetrics &amp; Gynaecology</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Ophthalmology">Ophthalmology</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Pathology">Pathology</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Pediatrics">Pediatrics</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/PATIENT/Wound-Care">Wound Care</a> </li>
+                    <span>0</span>
+        </ul>
+    </ul>
+                </li> 
+                <li class="submenu nav-item">
+                    <a href="#" class="nav-link">Specialist</a>
+    <ul class="megamenu">
+        <ul style="width:15%">
+            <h4 class="text-uppercase text-body">Specialist</h4>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Aesthetics">Aesthetics</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Dentistry">Dentistry</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Fertility">Fertility</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Genetic-Counselling">Genetic Counselling</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Integrative-Medicine">Integrative Medicine</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Obstetrics-Gynaecology">Obstetrics &amp; Gynaecology</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Ophthalmology">Ophthalmology</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Pathology">Pathology</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Pediatrics">Pediatrics</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Specialist/Wound-Care">Wound Care</a> </li>
+                    <span>0</span>
+        </ul>
+    </ul>
+                </li> 
+                <li class="submenu nav-item">
+                    <a href="#" class="nav-link">Divisions</a>
+    <ul class="megamenu">
+        <ul style="width:15%">
+            <h4 class="text-uppercase text-body">Divisions</h4>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Divisions/BIOBANK">BIOBANK</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Divisions/BIOLOGICS">BIOLOGICS</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Divisions/GENETICS">GENETICS</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Divisions/HEALTH">HEALTH</a> </li>
+                    <span>0</span>
+        <li><a href="https://dotnextnuke-dev.azurewebsites.net/Divisions/PATHOLOGY">PATHOLOGY</a> </li>
+                    <span>0</span>
+        </ul>
+    </ul>
+                </li> 
+
+
+
+                    </ul>

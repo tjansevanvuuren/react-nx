@@ -1,0 +1,39 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="WebSitesCreative.Skin.Next" type="Skin" version="03.00.01">
+      <azureCompatible>true</azureCompatible>
+      <friendlyName>Next</friendlyName>
+      <description>Dotnetnuke skin</description>
+      <owner>
+        <name>WebSitesCreative</name>
+        <organization>WebSitesCreative</organization>
+        <url>websitescreative.com</url>
+        <email>support@websitescreative.com</email>
+      </owner>
+      <license src="license.txt" />
+      <releaseNotes src="releaseNotes.txt" />
+      <components>
+        <component type="Skin">
+            <skinFiles>
+              <skinName>Next</skinName>
+              <basePath>Portals\_default\Skins\Next</basePath>
+              <skinFile>
+                <name>license.txt</name>
+              </skinFile>
+              <skinFile>
+                <name>releaseNotes.txt</name>
+              </skinFile>
+            </skinFiles>
+        </component>
+        <component type="ResourceFile">
+            <resourceFiles>
+              <basePath>Portals\_default\Skins\Next</basePath>
+              <resourceFile>
+                <name>Resources_Skin.Next.zip</name>
+              </resourceFile>
+            </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

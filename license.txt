@@ -1,0 +1,56 @@
+﻿This Agreement is a legal agreement between WebsitesCreative (WSC) and You for the SOFTWARE PRODUCT containing this LICENSE.
+<br><br>
+By downloading, installing or otherwise using the SOFTWARE PRODUCT and/or its related materials, you agree to be bound by the terms and conditions of this Software License Agreement (LICENSE).
+<br><br>
+The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties and contains confidential information and trade secrets. The SOFTWARE PRODUCT is licensed to you, not sold. WSC retains ownership of the copy of the SOFTWARE PRODUCT in your possession, and all copies you may be licensed to make. WSC also retains all rights not expressly granted to you in this LICENSE.
+<br><br>
+I. REDISTRIBUTION NOT PERMITTED
+The resale and/or redistribution of the SOFTWARE PRODUCT is strictly prohibited.
+<br><br>
+You may not place any of our products, modified or unmodified, on a diskette, CD, website or any other medium and offer them for redistribution or resale of any kind without prior written consent from WSC.
+<br><br>
+II. STANDARD LICENSE
+If you have purchased a Standard License, you may use this SOFTWARE PRODUCT on a single DNN installation and on a single DNN portal within a single top level online/intranet domain only, belonging to either you or your client. You need to purchase the same SOFTWARE PRODUCT again if you wish to use it on another DNN installation or another DNN portal within another top level online or intranet domain or in case you wish to use it on the same DNN installation or another DNN portal with another top level online or intranet domain.
+<br><br>
+III. PRO LICENSE
+Pro license includes 3 (three) STANDARD LICENSES.
+<br><br>
+IV. ENTERPRISE LICENSE
+Enterprise license includes 8 (eight) STANDARD LICENSES.
+<br><br>
+V. NON COMPETITION
+You may not use the SOFTWARE PRODUCT to replicate a similar or competing service.
+<br><br>
+VI. UNAUTHORIZED USE
+You are not allowed to use the SOFTWARE PRODUCT as a whole, or any of its comprising elements, as a basis for creation of another software product.
+<br><br>
+You are not allowed to use individually the software components comprising the SOFTWARE PRODUCT, but only as an integral part of the SOFTWARE PRODUCT.
+<br><br>
+You are not allowed to disassemble, de-compile or "unlock", decode or otherwise reverse translate or engineer, or attempt in any manner to reconstruct or discover any source code or underlying algorithms of the SOFTWARE PRODUCT provided in object code form only.
+<br><br>
+You are not allowed to use, copy, modify, or merge copies of the SOFTWARE PRODUCT or any accompanying documents except as permitted in this LICENSE.
+<br><br>
+You may not use the WSC product names, logos or trademarks to market your SERVICES or IMPLEMENTATIONS related to the SOFTWARE PRODUCT.
+<br><br>
+You agree to indemnify, hold harmless, and defend WSC, its directors and its resellers from and against any and all claims or lawsuits including attorney's fees that arise or result from the use or distribution of your software product.
+<br><br>
+VII. TERMINATION
+This LICENSE shall last as long as you use the SOFTWARE PRODUCT in compliance with this LICENSE.
+<br><br>
+WebsitesCreative reserves the right to suspend or terminate access to the SOFTWARE PRODUCT without notice if you fail to comply with any provision of these terms of service, your use of the SOFTWARE reflects poorly on WSC, or otherwise disparages or devalues WSC's brands, WSC's reputation, or WSC's goodwill, or if WSC reasonably determines that it is impracticable to continue providing the services in light of applicable laws. In such event you agree to remove and destroy all copies of the SOFTWARE PRODUCT.
+<br><br>
+WSC reserves the right to discontinue at any time any SOFTWARE PRODUCT, whether it is offered individually or as a part of a product suite.
+<br><br>
+VIII. LIMITATION OF LIABILITY
+To the maximum extent permitted by applicable law, in no event will WSC be liable for any indirect, special, incidental, or consequential damages arising out of the use of or inability to use the PRODUCT SOFTWARE, including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses, even if advised of the possibility thereof, and regardless of the legal or equitable theory (contract, tort or otherwise) upon which the claim is based.
+<br><br>
+In any case, WSC's entire liability under any provision of this agreement shall not exceed in the aggregate the sum of the license fees licensee paid to WSC for the product giving rise to such damages, notwithstanding any failure of essential purpose of any limited remedy.
+<br><br>
+WSC is not responsible for any liability arising out of content provided by licensee or a third party that is accessed through the SOFTWARE PRODUCT and/or any material linked through such content.
+<br><br>
+Any data included in a SOFTWARE PRODUCT upon shipment from WSC may be for testing use only and WSC hereby disclaims any and all liability arising therefrom.
+<br><br>
+IX. MISCELLANEOUS
+This License represents the entire understanding between the parties with respect to its subject matter.
+<br><br>
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, THAT YOU UNDERSTAND THIS AGREEMENT, AND UNDERSTAND THAT BY CONTINUING THE INSTALLATION OF THE SOFTWARE PRODUCT, BY PURCHASING, LOADING OR RUNNING THE SOFTWARE PRODUCT, OR BY PLACING OR COPYING THE SOFTWARE ONTO YOUR COMPUTER HARD DRIVE, YOU AGREE TO BE BOUND BY THIS AGREEMENT'S TERMS AND CONDITIONS. YOU FURTHER AGREE THAT, EXCEPT FOR WRITTEN SEPARATE AGREEMENTS BETWEEN WSC AND YOU, THIS AGREEMENT IS A COMPLETE AND EXCLUSIVE STATEMENT OF THE RIGHTS AND LIABILITIES OF THE PARTIES.

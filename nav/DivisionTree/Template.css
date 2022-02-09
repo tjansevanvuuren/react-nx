@@ -1,0 +1,46 @@
+.product-card-flip {
+  perspective: 1000px;
+}
+
+.product-card-flip > .card-img-top {
+  max-height: 450px;
+  height: 450px;
+}
+
+.product-card-flip:hover .flip, .product-card-flip.hover .flip {
+  transform: rotateY(180deg);
+}
+
+.product-card-flip,
+.front,
+.back {
+  width: 100%;
+  min-height: 450px;
+  height: 450px;
+  max-width: 20em;
+}
+
+.flip {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+/*# sourceMappingURL=Template.css.map */

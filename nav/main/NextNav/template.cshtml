@@ -1,0 +1,147 @@
+﻿@using DotNetNuke.Web.DDRMenu;
+@using DotNetNuke.Entities.Tabs;
+@using DotNetNuke.Entities.Portals;
+@using DotNetNuke.Entities.Content.Taxonomy;
+@inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
+@{ var root = Model.Source.root; }
+
+@helper RenderNodes(IList<MenuNode> nodes)
+{if (nodes.Count > 0)
+    {
+<ul id="dnnmega" style="display: flex; flex-direction: row;">
+    @foreach (var node in nodes)
+    {
+        var classString = GetClasses(node, " submenu nav-item");
+<li @classString>
+    @RenderItem(node, false, " submenu nav-item text-uppercase")
+    @if (node.Children.Count > 0)
+    {
+<ul class="megamenu">
+    <div class="row">
+        @RenderMegaNodes(node.Children, node.Text)
+    </div>
+</ul>}
+</li>}
+</ul>}
+}
+
+@helper RenderMegaNodes(IList<MenuNode> nodes, string parentTitle)
+{
+
+    <h4 class="text-uppercase text-body">@parentTitle</h4> foreach (var node in nodes)
+    {
+        if (node.Children.Count > 0)
+        {
+<ul style="width:15%">
+    <h4 class="text-uppercase text-body">@node.Text</h4>
+    @RenderChildNodes(node.Children)
+</ul> }
+else
+{
+<li>
+    @RenderItem(node, false, " nav-link")
+</li>}
+}
+
+}
+@helper RenderChildNodes(IList<MenuNode> nodes)
+{foreach (var node in nodes)
+    {
+        if (node.Children.Count > 0)
+        {
+<ul>
+    <h4 class="text-uppercase text-body">@node.Text</h4>
+    @RenderMegaNodes(node.Children, node.Text)
+</ul> }
+else
+{
+<li class="nav-link">
+    @RenderItem(node, false, " nav-link")
+</li>}
+}
+}
+
+@helper RenderItem(MenuNode node, bool isTitle, string cssClass)
+{HtmlString classString = new HtmlString(string.Empty);
+    if (string.IsNullOrEmpty(cssClass))
+    {
+        classString = GetClasses(node, " submenu nav-item");
+    }
+    if (node.Enabled)
+    {
+        if (isTitle)
+        {
+<h4 @classString>@node.Text</h4> }
+else
+{
+HtmlString dispVal;
+if (node.Text.Contains('-'))
+{
+    var nodeText = node.Text.Split('-');
+    dispVal = new HtmlString("<strong>" + nodeText[0] + "</strong> - " + nodeText[1]);
+}
+else
+{
+    dispVal = new HtmlString(node.Text);
+    if (cssClass == " submenu nav-item text-uppercase")
+    {
+<a href="#" class="nav-link">@dispVal</a> }
+else
+{
+<a href="@node.Url" class="nav-link">@dispVal</a> }
+}
+}
+}
+else
+{
+<span> @node.Text </span>}
+}
+@functions{ public int portalId = PortalController.GetCurrentPortalSettings().PortalId;
+    public TabController tc = new TabController();
+
+    public HtmlString GetClasses(MenuNode node)
+    {
+        return GetClasses(node, String.Empty);
+    }
+
+    public HtmlString GetClasses(MenuNode node, string additionalClasses)
+    {
+        List<string> cssClasses = GetClassList(node);
+        if (String.IsNullOrEmpty(additionalClasses))
+        {
+            return new HtmlString((cssClasses.Count == 0) ?
+                String.Empty :
+                ("class=\"" +
+                    (String.Join(" ", cssClasses.ToArray()) +
+                    additionalClasses + "\"").TrimStart()));
+        }
+        else
+        {
+            return new HtmlString("class=\"" +
+                (String.Join(" ", cssClasses.ToArray()) +
+                additionalClasses + "\"").TrimStart());
+        }
+    }
+
+
+    public List<string> GetClassList(MenuNode node)
+    {
+        var classList = new List<string>();
+        if (node.Selected) { classList.Add("selected"); }
+        classList.AddRange(GetTerms(node));
+        //if (isRoot) { classList.Add("root"); }
+        return classList;
+    }
+
+    public List<string> GetTerms(MenuNode node)
+    {
+        var classList = new List<string>();
+
+        TabInfo tab = tc.GetTab(node.TabId, portalId, false);
+        foreach (Term term in tab.Terms)
+        {
+            classList.Add(term.Name);
+        }
+        return classList;
+    } }
+@RenderNodes(root.Children)
